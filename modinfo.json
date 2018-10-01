@@ -1,0 +1,19 @@
+{
+  "context": "client",
+  "identifier": "com.quitch.qallinonetab-dev",
+  "display_name": "All In One Spectator Tab DEV",
+  "description": "Adds a tab called ALL to the spectator panel, which contains both economy and army information.",
+  "author": "Quitch",
+  "version": "dev",
+  "build": "110069",
+  "date": "2018/10/01",
+  "signature": " ",
+  "forum": "https://forums.planetaryannihilation.com/threads/client-all-in-one-spectator-tab.73161/",
+  "icon": "https://i.imgur.com/oF09PFr.jpg",
+  "category": [
+    "ui",
+    "classic",
+    "titans"
+  ],
+  "priority": 100
+}
