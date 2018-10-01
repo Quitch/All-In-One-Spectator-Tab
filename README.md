@@ -32,3 +32,7 @@ Because I wanted to avoid having the ALL tab be any wider than the other tabs. I
 **Why does your mod wrap the text when the numbers get big?**
 
 I've tried to ensure this is very unlikely to happen, but because the columns are narrower it *could* happen. Things will get more cramped though. You can switch to the other tabs still if things get ugly.
+
+**Do you support translations?**
+
+No. When you include translations in a Planetary Annihilation client mod, it breaks all other translations in the game. Until this is fixed this mod can't ship with translations.
