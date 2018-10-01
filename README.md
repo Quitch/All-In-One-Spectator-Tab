@@ -1,4 +1,4 @@
-# All In One Spectator Tab
+# All-In-One Spectator Tab
 
 ![alt text](https://i.imgur.com/k5fM6FD.png "All In One Spectator Tab")
 
