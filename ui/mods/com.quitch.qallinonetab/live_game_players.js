@@ -1,7 +1,5 @@
-function allinonetab()
-{
-    model.showAllData = ko.computed(function ()
-    {
+function allinonetab() {
+    model.showAllData = ko.computed(function () {
         return model.spectatorPanelMode() == 'all';
     });
 
@@ -14,11 +12,9 @@ function allinonetab()
     $('table.tbl_spectator_stats tr:last').append(loadHtml('coui://ui/mods/com.quitch.qallinonetab/live_game_players2.html'));
 }
 
-try
-{
+try {
     allinonetab();
 }
-catch (e)
-{
+catch (e) {
     console.error(e);
 }
