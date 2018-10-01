@@ -19,12 +19,6 @@ You should download and install this mod via the Planetary Annihilation TITANS i
 
 ## FAQ
 
-**You achieved this by cleanly appending your content to the existing files?**
-
-Christ, no. I'm shadowing both HTML and JS files for live_game_players. I tried to do it properly, I really did (don't hurt me mikey!) but I don't know a damn thing about JS and couldn't get it working. You can find my content by searching for "ALL IN ONE TAB" in the files.
-
-At least the CSS is done cleanly. You're welcome.
-
 **Why didn't you include total unit count?**
 
 Because I wanted to avoid having the ALL tab be any wider than the other tabs. I considered total unit count to be the most useless stat and so it was dropped.
@@ -36,3 +30,7 @@ I've tried to ensure this is very unlikely to happen, but because the columns ar
 **Do you support translations?**
 
 No. When you include translations in a Planetary Annihilation client mod, it breaks all other translations in the game. Until this is fixed this mod can't ship with translations.
+
+## Thanks
+
+  - mikeyh who once again covered for my total inability to inject Javascript
