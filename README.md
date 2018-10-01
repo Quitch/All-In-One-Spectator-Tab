@@ -33,4 +33,4 @@ No. When you include translations in a Planetary Annihilation client mod, it bre
 
 ## Thanks
 
-  - mikeyh who once again covered for my total inability to inject Javascript
+  - mikeyh, who once again covered for my total inability to inject Javascript and HTML
