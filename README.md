@@ -17,6 +17,10 @@ This mod thus solves the problem of needing to shout at WPMarshall to change bac
 
 You should download and install this mod via the Planetary Annihilation TITANS in-game Community Mod Manager. You will need to [enable Community Mods](https://steamcommunity.com/sharedfiles/filedetails/?id=1417396826).
 
+## Translations
+
+Please help [translate All-In-One Spectator Tab](https://poeditor.com/join/project/juanyAfxIm) to your local language.
+
 ## FAQ
 
 **Why didn't you include total unit count?**
