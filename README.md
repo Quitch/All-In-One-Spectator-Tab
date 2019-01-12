@@ -2,7 +2,7 @@
 
 ![alt text](https://i.imgur.com/k5fM6FD.png "All In One Spectator Tab")
 
-Adds a two tabs to the spectator player panel: ALL and ALL2.
+Adds two tabs to the spectator player panel: ALL and ALL2.
 
 ALL displays the following:
 
