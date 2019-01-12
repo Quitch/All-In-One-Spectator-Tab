@@ -18,6 +18,11 @@
     text-align: right;
 }
 
+.div_army_metal_value_header_quitch {
+    min-width: 55px;
+    text-align: right;
+}
+
 .div_army_fabber_value_header_quitch {
     min-width: 35px;
     text-align: right;
