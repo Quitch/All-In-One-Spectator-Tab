@@ -16,7 +16,6 @@ function allinonetab() {
 
   $('table.tbl_spectator_stats tr:last').append(loadHtml('coui://ui/mods/com.quitch.qallinonetab/live_game_players2.html'));
 
-
   // ALL2 - All-in-one army metal
   $('div.div_spectator_panel_buttons').append('<div class="div_spectator_panel_button" data-bind="click: function () { spectatorPanelMode(\'all2\') }, css: { div_spectator_panel_button_active: showAllData2 } "><loc>ALL2</loc></div>');
 
