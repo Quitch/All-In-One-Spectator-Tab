@@ -1,10 +1,10 @@
 {
   "context": "client",
-  "identifier": "com.quitch.qallinonetab-dev",
-  "display_name": "All-In-One Spectator Tab DEV",
+  "identifier": "com.quitch.qallinonetab",
+  "display_name": "All-In-One Spectator Tab",
   "description": "Adds a tab called ALL to the spectator panel, which contains both economy and army information.",
   "author": "Quitch",
-  "version": "dev",
+  "version": "1.1",
   "build": "112595",
   "date": "2019/01/12",
   "signature": " ",
