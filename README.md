@@ -2,7 +2,9 @@
 
 ![alt text](https://i.imgur.com/k5fM6FD.png "All In One Spectator Tab")
 
-Adds a tab to the spectator player panel called ALL and makes it the default tab. This tab displays:
+Adds a two tabs to the spectator player panel: ALL and ALL2.
+
+ALL displays the following:
 
   - Metal income
   - Energy income
@@ -11,7 +13,7 @@ Adds a tab to the spectator player panel called ALL and makes it the default tab
   - Fabber count
   - Factory count
 
-This mod thus solves the problem of needing to shout at WPMarshall to change back to the economy tab once-and-for-all.
+ALL2 displays army metal in place of army count. Army metal counts all units and structures owned by a player, not just offensive units.
 
 ## Installation
 
