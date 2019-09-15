@@ -10,17 +10,10 @@
   "signature": " ",
   "forum": "https://forums.planetaryannihilation.com/threads/client-all-in-one-spectator-tab.73161/",
   "icon": "https://i.imgur.com/oF09PFr.jpg",
-  "category":
-  [
-    "ui",
-    "classic",
-    "titans"
-  ],
+  "category": ["ui", "classic", "titans"],
   "priority": 100,
-  "scenes":
-  {
-    "live_game_players":
-    [
+  "scenes": {
+    "live_game_players": [
       "coui://ui/mods/com.quitch.qallinonetab/live_game_players.css",
       "coui://ui/mods/com.quitch.qallinonetab/live_game_players.js"
     ]
