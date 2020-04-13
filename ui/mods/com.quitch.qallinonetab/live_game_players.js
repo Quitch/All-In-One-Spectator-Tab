@@ -1,10 +1,10 @@
 function allinonetab() {
   // Setup tabs
   model.spectatorPanelMode("all");
-  model.showAllData = ko.computed(function() {
+  model.showAllData = ko.computed(function () {
     return model.spectatorPanelMode() === "all";
   });
-  model.showAllData2 = ko.computed(function() {
+  model.showAllData2 = ko.computed(function () {
     return model.spectatorPanelMode() === "all2";
   });
 
