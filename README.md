@@ -1,6 +1,6 @@
-# All-In-One Spectator Tab
+# [All-In-One Spectator Tab]
 
-![alt text](https://i.imgur.com/k5fM6FD.png "All In One Spectator Tab")
+![An example of the mod in use](https://i.imgur.com/k5fM6FD.png "All In One Spectator Tab")
 
 Adds two tabs to the spectator player panel: ALL and ALL2.
 
@@ -15,15 +15,15 @@ ALL displays the following:
 
 ALL2 displays army metal in place of army count. Army metal counts all units and structures owned by a player, not just offensive units.
 
-## Installation
+## [Installation]
 
 You should download and install this mod via the Planetary Annihilation TITANS in-game Community Mod Manager. You will need to [enable Community Mods](https://steamcommunity.com/sharedfiles/filedetails/?id=1417396826).
 
-## Translations
+## [Translations]
 
 Please help [translate All-In-One Spectator Tab](https://poeditor.com/join/project/juanyAfxIm) to your local language.
 
-## FAQ
+## [FAQ]
 
 **Why didn't you include total unit count?**
 
@@ -37,6 +37,6 @@ I've tried to ensure this is very unlikely to happen, but because the columns ar
 
 No. When you include translations in a Planetary Annihilation client mod, it breaks all other translations in the game. Until this is fixed this mod can't ship with translations.
 
-## Thanks
+## [Thanks]
 
 - mikeyh, who once again covered for my total inability to inject Javascript and HTML
