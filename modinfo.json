@@ -14,8 +14,8 @@
   "priority": 100,
   "scenes": {
     "live_game_players": [
-      "coui://ui/mods/com.quitch.qallinonetab/live_game_players.css",
-      "coui://ui/mods/com.quitch.qallinonetab/live_game_players.js"
+      "coui://ui/mods/com.quitch.qallinonetab/all_tabs.css",
+      "coui://ui/mods/com.quitch.qallinonetab/all_tabs.js"
     ]
   }
 }

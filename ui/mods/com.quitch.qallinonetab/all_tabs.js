@@ -14,11 +14,11 @@ function allInOneTab() {
   );
 
   $("table.tbl_spectator_stats tr:first").append(
-    loadHtml("coui://ui/mods/com.quitch.qallinonetab/live_game_players1.html")
+    loadHtml("coui://ui/mods/com.quitch.qallinonetab/all_headers.html")
   );
 
   $("table.tbl_spectator_stats tr:last").append(
-    loadHtml("coui://ui/mods/com.quitch.qallinonetab/live_game_players2.html")
+    loadHtml("coui://ui/mods/com.quitch.qallinonetab/all_values.html")
   );
 
   // ALL2 - All-in-one army metal
@@ -27,11 +27,11 @@ function allInOneTab() {
   );
 
   $("table.tbl_spectator_stats tr:first").append(
-    loadHtml("coui://ui/mods/com.quitch.qallinonetab/live_game_players3.html")
+    loadHtml("coui://ui/mods/com.quitch.qallinonetab/all2_headers.html")
   );
 
   $("table.tbl_spectator_stats tr:last").append(
-    loadHtml("coui://ui/mods/com.quitch.qallinonetab/live_game_players4.html")
+    loadHtml("coui://ui/mods/com.quitch.qallinonetab/all2_values.html")
   );
 }
 
