@@ -1,4 +1,4 @@
-function allinonetab() {
+function allInOneTab() {
   // Setup tabs
   model.spectatorPanelMode("all");
   model.showAllData = ko.computed(function () {
@@ -36,7 +36,7 @@ function allinonetab() {
 }
 
 try {
-  allinonetab();
+  allInOneTab();
 } catch (e) {
   console.error(e);
 }
