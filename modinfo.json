@@ -17,5 +17,6 @@
       "coui://ui/mods/com.quitch.qallinonetab/all_tabs.css",
       "coui://ui/mods/com.quitch.qallinonetab/all_tabs.js"
     ]
-  }
+  },
+  "github": "https://github.com/Quitch/All-In-One-Spectator-Tab"
 }
