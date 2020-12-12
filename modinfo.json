@@ -17,5 +17,6 @@
       "coui://ui/mods/com.quitch.qallinonetab/live_game_players.css",
       "coui://ui/mods/com.quitch.qallinonetab/live_game_players.js"
     ]
-  }
+  },
+  "github": "https://github.com/Quitch/All-In-One-Spectator-Tab"
 }
