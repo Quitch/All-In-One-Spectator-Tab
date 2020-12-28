@@ -1,7 +1,7 @@
-var allInOneSpectatorTab;
+var allInOneSpectatorTabLoaded;
 
-if (!allInOneSpectatorTab) {
-  allInOneSpectatorTab = true;
+if (!allInOneSpectatorTabLoaded) {
+  allInOneSpectatorTabLoaded = true;
 
   try {
     // Setup tabs
