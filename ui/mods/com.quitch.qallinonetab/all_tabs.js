@@ -16,7 +16,7 @@ if (!allInOneSpectatorTabLoaded) {
 
       // ALL - All-in-one army count
       $("div.div_spectator_panel_buttons").append(
-        '<div class="div_spectator_panel_button" data-bind="click: function () { spectatorPanelMode(\'all\') }, css: { div_spectator_panel_button_active: showAllData } "><loc>ALL</loc></div>'
+        loadHtml("coui://ui/mods/com.quitch.qallinonetab/all_buttons.html")
       );
 
       $("table.tbl_spectator_stats tr:first").append(
@@ -29,7 +29,7 @@ if (!allInOneSpectatorTabLoaded) {
 
       // ALL2 - All-in-one army metal
       $("div.div_spectator_panel_buttons").append(
-        '<div class="div_spectator_panel_button" data-bind="click: function () { spectatorPanelMode(\'all2\') }, css: { div_spectator_panel_button_active: showAllData2 } "><loc>ALL2</loc></div>'
+        loadHtml("coui://ui/mods/com.quitch.qallinonetab/all2_buttons.html")
       );
 
       $("table.tbl_spectator_stats tr:first").append(
