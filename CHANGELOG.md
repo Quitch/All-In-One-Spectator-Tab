@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Unreleased
+
+- Expands the spectator panel by default
+
 ## v1.1 - 2019-01-12
 
 - Added ALL2 tab with army metal count

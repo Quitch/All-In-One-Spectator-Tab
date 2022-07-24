@@ -39,6 +39,8 @@ if (!allInOneSpectatorTabLoaded) {
       $("table.tbl_spectator_stats tr:last").append(
         loadHtml("coui://ui/mods/com.quitch.qallinonetab/all2_values.html")
       );
+
+      model.pinSpectatorPanel(true);
     } catch (e) {
       console.error(e);
       console.error(JSON.stringify(e));
