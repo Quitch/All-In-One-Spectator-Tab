@@ -5,15 +5,6 @@ if (!allInOneSpectatorTabLoaded) {
 
   function allInOneSpectatorTab() {
     try {
-      // Setup tabs
-      model.spectatorPanelMode("all");
-      model.showAllData = ko.computed(function () {
-        return model.spectatorPanelMode() === "all";
-      });
-      model.showAllData2 = ko.computed(function () {
-        return model.spectatorPanelMode() === "all2";
-      });
-
       // ALL - All-in-one army count
       $("div.div_spectator_panel_buttons").append(
         loadHtml("coui://ui/mods/com.quitch.qallinonetab/all_buttons.html")
@@ -39,6 +30,15 @@ if (!allInOneSpectatorTabLoaded) {
       $("table.tbl_spectator_stats tr:last").append(
         loadHtml("coui://ui/mods/com.quitch.qallinonetab/all2_values.html")
       );
+
+      // Setup tabs
+      model.spectatorPanelMode("all");
+      model.showAllData = ko.computed(function () {
+        return model.spectatorPanelMode() === "all";
+      });
+      model.showAllData2 = ko.computed(function () {
+        return model.spectatorPanelMode() === "all2";
+      });
 
       model.pinSpectatorPanel(true);
     } catch (e) {
