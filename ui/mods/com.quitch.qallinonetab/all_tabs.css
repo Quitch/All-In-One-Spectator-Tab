@@ -1,0 +1,34 @@
+.div_metal_header_quitch {
+  min-width: 80px;
+  text-align: right;
+}
+
+.div_energy_header_quitch {
+  min-width: 105px;
+  text-align: right;
+}
+
+.div_build_efficiency_header_quitch {
+  min-width: 50px;
+  text-align: right;
+}
+
+.div_army_mobile_value_header_quitch {
+  min-width: 55px;
+  text-align: right;
+}
+
+.div_army_metal_value_header_quitch {
+  min-width: 55px;
+  text-align: right;
+}
+
+.div_army_fabber_value_header_quitch {
+  min-width: 35px;
+  text-align: right;
+}
+
+.div_army_factory_value_header_quitch {
+  min-width: 35px;
+  text-align: right;
+}
