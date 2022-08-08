@@ -12,6 +12,11 @@
 
 [![Button Translate]][Translate]
 
+<br>
+<br>
+
+[![Showcase]][#]
+
 </div>
 
 <br>
@@ -98,6 +103,9 @@ inability to inject JavaScript and HTML.
 [Enable Community Mods]: https://steamcommunity.com/sharedfiles/filedetails/?id=1417396826
 [Translate]: https://poeditor.com/join/project/juanyAfxIm
 [Store]: https://store.steampowered.com/app/386070/Planetary_Annihilation_TITANS/
+
+[Showcase]: images/Showcase.png
+[#]: #
 
 
 <!---------------------------------[ Buttons ]--------------------------------->
