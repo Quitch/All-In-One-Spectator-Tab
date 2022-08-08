@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Unreleased
+
+- Fixed mod icon
+
 ## v1.2.0 - 2022-07-24
 
 - Expands the spectator panel by default
