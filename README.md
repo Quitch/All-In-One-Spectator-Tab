@@ -10,6 +10,7 @@
 <br>
 <br>
 
+[![Button Forum]][Forum]   
 [![Button Translate]][Translate]
 
 <br>
@@ -102,6 +103,7 @@ inability to inject JavaScript and HTML.
 
 [Enable Community Mods]: https://steamcommunity.com/sharedfiles/filedetails/?id=1417396826
 [Translate]: https://poeditor.com/join/project/juanyAfxIm
+[Forum]: https://forums.planetaryannihilation.com/threads/client-all-in-one-spectator-tab-v1-1.73161/
 [Store]: https://store.steampowered.com/app/386070/Planetary_Annihilation_TITANS/
 
 [Showcase]: images/Showcase.png
@@ -111,3 +113,6 @@ inability to inject JavaScript and HTML.
 <!---------------------------------[ Buttons ]--------------------------------->
 
 [Button Translate]: https://img.shields.io/badge/Help_Translate-409FFF?style=for-the-badge&logoColor=white&logo=GoogleTranslate
+[Button Forum]: https://img.shields.io/badge/Forum-eda34a?style=for-the-badge&logoColor=white&logo=RuboCop
+
+
