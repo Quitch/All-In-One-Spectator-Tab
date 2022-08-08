@@ -1,7 +1,5 @@
 # All-In-One Spectator Tab
 
-![An example of the mod in use](https://i.imgur.com/k5fM6FD.png "All In One Spectator Tab")
-
 Adds two tabs to the spectator player panel: ALL and ALL2.
 
 ALL displays the following:
