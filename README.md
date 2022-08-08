@@ -17,10 +17,6 @@ ALL2 displays army metal in place of army count. Army metal counts all units and
 
 You should download and install this mod via the Planetary Annihilation TITANS in-game Community Mod Manager. You will need to [enable Community Mods](https://steamcommunity.com/sharedfiles/filedetails/?id=1417396826).
 
-## Translations
-
-Please help [translate All-In-One Spectator Tab](https://poeditor.com/join/project/juanyAfxIm) to your local language.
-
 ## FAQ
 
 **Why didn't you include total unit count?**
