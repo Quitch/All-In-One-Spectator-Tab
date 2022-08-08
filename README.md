@@ -31,10 +31,6 @@ Because I wanted to avoid having the ALL tab be any wider than the other tabs. I
 
 I've tried to ensure this is very unlikely to happen, but because the columns are narrower it _could_ happen. Things will get more cramped though. You can switch to the other tabs still if things get ugly.
 
-**Do you support translations?**
-
-No. When you include translations in a Planetary Annihilation client mod, it breaks all other translations in the game. Until this is fixed this mod can't ship with translations.
-
 ## Thanks
 
 - mikeyh, who once again covered for my total inability to inject Javascript and HTML
