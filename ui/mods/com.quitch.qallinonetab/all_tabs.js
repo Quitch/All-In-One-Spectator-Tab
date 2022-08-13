@@ -5,28 +5,17 @@ if (!allInOneSpectatorTabLoaded) {
 
   function allInOneSpectatorTab() {
     try {
-      $("div.div_spectator_panel_buttons").append(
-        loadHtml("coui://ui/mods/com.quitch.qallinonetab/all_buttons.html")
-      );
+      var appendHtml = function (htmlClass, file) {
+        var path = "coui://ui/mods/com.quitch.qallinonetab/";
+        $(htmlClass).append(loadHtml(path + file));
+      };
 
-      $("table.tbl_spectator_stats tr:first").append(
-        loadHtml("coui://ui/mods/com.quitch.qallinonetab/all_headers.html")
-      );
-
-      $("table.tbl_spectator_stats tr:last").append(
-        loadHtml("coui://ui/mods/com.quitch.qallinonetab/all_values.html")
-      );
-      $("div.div_spectator_panel_buttons").append(
-        loadHtml("coui://ui/mods/com.quitch.qallinonetab/all2_buttons.html")
-      );
-
-      $("table.tbl_spectator_stats tr:first").append(
-        loadHtml("coui://ui/mods/com.quitch.qallinonetab/all2_headers.html")
-      );
-
-      $("table.tbl_spectator_stats tr:last").append(
-        loadHtml("coui://ui/mods/com.quitch.qallinonetab/all2_values.html")
-      );
+      appendHtml("div.div_spectator_panel_buttons", "all_buttons.html");
+      appendHtml("table.tbl_spectator_stats tr:first", "all_headers.html");
+      appendHtml("table.tbl_spectator_stats tr:last", "all_values.html");
+      appendHtml("div.div_spectator_panel_buttons", "all2_buttons.html");
+      appendHtml("table.tbl_spectator_stats tr:first", "all2_headers.html");
+      appendHtml("table.tbl_spectator_stats tr:last", "all2_values.html");
 
       model.showAllData = ko.computed(function () {
         return model.spectatorPanelMode() === "all";
