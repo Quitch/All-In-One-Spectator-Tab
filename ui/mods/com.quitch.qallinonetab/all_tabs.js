@@ -10,22 +10,28 @@ if (!allInOneSpectatorTabLoaded) {
         $(htmlClass).append(loadHtml(path + file));
       };
 
-      appendHtml("div.div_spectator_panel_buttons", "all_buttons.html");
-      appendHtml("table.tbl_spectator_stats tr:first", "all_headers.html");
-      appendHtml("table.tbl_spectator_stats tr:last", "all_values.html");
-      appendHtml("div.div_spectator_panel_buttons", "all2_buttons.html");
-      appendHtml("table.tbl_spectator_stats tr:first", "all2_headers.html");
-      appendHtml("table.tbl_spectator_stats tr:last", "all2_values.html");
+      appendHtml("div.div_spectator_panel_buttons", "army_count_buttons.html");
+      appendHtml(
+        "table.tbl_spectator_stats tr:first",
+        "army_count_headers.html"
+      );
+      appendHtml("table.tbl_spectator_stats tr:last", "army_count_values.html");
+      appendHtml("div.div_spectator_panel_buttons", "army_metal_buttons.html");
+      appendHtml(
+        "table.tbl_spectator_stats tr:first",
+        "army_metal_headers.html"
+      );
+      appendHtml("table.tbl_spectator_stats tr:last", "army_metal_values.html");
 
-      model.showAllData = ko.computed(function () {
-        return model.spectatorPanelMode() === "all"; // army count
+      model.showArmyCount = ko.computed(function () {
+        return model.spectatorPanelMode() === "armyCount";
       });
-      model.showAllData2 = ko.computed(function () {
-        return model.spectatorPanelMode() === "all2"; // army metal
+      model.showArmyMetal = ko.computed(function () {
+        return model.spectatorPanelMode() === "armyMetal";
       });
 
-      model.spectatorPanelMode("all"); // default view
-      model.pinSpectatorPanel(true); // start dropped down
+      model.spectatorPanelMode("armyCount");
+      model.pinSpectatorPanel(true);
     } catch (e) {
       console.error(e);
       console.error(JSON.stringify(e));
