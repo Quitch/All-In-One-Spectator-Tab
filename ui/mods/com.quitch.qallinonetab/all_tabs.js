@@ -18,14 +18,14 @@ if (!allInOneSpectatorTabLoaded) {
       appendHtml("table.tbl_spectator_stats tr:last", "all2_values.html");
 
       model.showAllData = ko.computed(function () {
-        return model.spectatorPanelMode() === "all";
+        return model.spectatorPanelMode() === "all"; // army count
       });
       model.showAllData2 = ko.computed(function () {
-        return model.spectatorPanelMode() === "all2";
+        return model.spectatorPanelMode() === "all2"; // army metal
       });
 
-      model.spectatorPanelMode("all");
-      model.pinSpectatorPanel(true);
+      model.spectatorPanelMode("all"); // default view
+      model.pinSpectatorPanel(true); // start dropped down
     } catch (e) {
       console.error(e);
       console.error(JSON.stringify(e));
