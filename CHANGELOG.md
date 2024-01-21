@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Unreleased
+
+- Corrected forum link
+
 ## v1.2.1 - 2022-08-08
 
 - Fixed mod icon
