@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased
+## v1.2.2 - 2024-01-21
 
 - Corrected forum link
 
