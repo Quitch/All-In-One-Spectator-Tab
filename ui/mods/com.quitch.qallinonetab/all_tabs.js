@@ -5,37 +5,32 @@ if (!allInOneSpectatorTabLoaded) {
 
   function allInOneSpectatorTab() {
     try {
-      $("div.div_spectator_panel_buttons").append(
-        loadHtml("coui://ui/mods/com.quitch.qallinonetab/all_buttons.html")
-      );
+      var appendHtml = function (htmlClass, file) {
+        var path = "coui://ui/mods/com.quitch.qallinonetab/";
+        $(htmlClass).append(loadHtml(path + file));
+      };
 
-      $("table.tbl_spectator_stats tr:first").append(
-        loadHtml("coui://ui/mods/com.quitch.qallinonetab/all_headers.html")
+      appendHtml("div.div_spectator_panel_buttons", "army_count_buttons.html");
+      appendHtml(
+        "table.tbl_spectator_stats tr:first",
+        "army_count_headers.html"
       );
+      appendHtml("table.tbl_spectator_stats tr:last", "army_count_values.html");
+      appendHtml("div.div_spectator_panel_buttons", "army_metal_buttons.html");
+      appendHtml(
+        "table.tbl_spectator_stats tr:first",
+        "army_metal_headers.html"
+      );
+      appendHtml("table.tbl_spectator_stats tr:last", "army_metal_values.html");
 
-      $("table.tbl_spectator_stats tr:last").append(
-        loadHtml("coui://ui/mods/com.quitch.qallinonetab/all_values.html")
-      );
-      $("div.div_spectator_panel_buttons").append(
-        loadHtml("coui://ui/mods/com.quitch.qallinonetab/all2_buttons.html")
-      );
-
-      $("table.tbl_spectator_stats tr:first").append(
-        loadHtml("coui://ui/mods/com.quitch.qallinonetab/all2_headers.html")
-      );
-
-      $("table.tbl_spectator_stats tr:last").append(
-        loadHtml("coui://ui/mods/com.quitch.qallinonetab/all2_values.html")
-      );
-
-      model.showAllData = ko.computed(function () {
-        return model.spectatorPanelMode() === "all";
+      model.showArmyCount = ko.computed(function () {
+        return model.spectatorPanelMode() === "armyCount";
       });
-      model.showAllData2 = ko.computed(function () {
-        return model.spectatorPanelMode() === "all2";
+      model.showArmyMetal = ko.computed(function () {
+        return model.spectatorPanelMode() === "armyMetal";
       });
 
-      model.spectatorPanelMode("all");
+      model.spectatorPanelMode("armyCount");
       model.pinSpectatorPanel(true);
     } catch (e) {
       console.error(e);

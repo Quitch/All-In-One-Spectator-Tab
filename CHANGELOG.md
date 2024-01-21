@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.2.2 - 2024-01-21
+
+- Corrected forum link
+
 ## v1.2.1 - 2022-08-08
 
 - Fixed mod icon
