@@ -1,12 +1,4 @@
-var allInOneSpectatorTabLoaded;
-
-function allInOneSpectatorTab() {
-  if (allInOneSpectatorTabLoaded) {
-    return;
-  }
-
-  allInOneSpectatorTabLoaded = true;
-
+(function () {
   try {
     var appendHtml = function (htmlClass, file) {
       var path = "coui://ui/mods/com.quitch.qallinonetab/";
@@ -33,5 +25,4 @@ function allInOneSpectatorTab() {
     console.error(e);
     console.error("All-In-One Spectator Tab: " + (e.stack || e.message || e));
   }
-}
-allInOneSpectatorTab();
+})();
