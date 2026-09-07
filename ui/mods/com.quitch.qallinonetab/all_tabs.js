@@ -8,8 +8,8 @@ function allInOneSpectatorTab() {
   allInOneSpectatorTabLoaded = true;
 
   try {
-    const appendHtml = function (htmlClass, file) {
-      const path = "coui://ui/mods/com.quitch.qallinonetab/";
+    var appendHtml = function (htmlClass, file) {
+      var path = "coui://ui/mods/com.quitch.qallinonetab/";
       $(htmlClass).append(loadHtml(path + file));
     };
 
