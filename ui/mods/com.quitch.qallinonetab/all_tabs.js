@@ -22,7 +22,6 @@
     model.spectatorPanelMode("armyCount");
     model.pinSpectatorPanel(true);
   } catch (e) {
-    console.error(e);
     console.error("All-In-One Spectator Tab: " + (e.stack || e.message || e));
   }
 })();
